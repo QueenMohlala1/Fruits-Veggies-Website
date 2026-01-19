@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Fruits and Vegetables website</title>
+
+    <!--Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Box icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- Navbar section -->
+    <header>
+        <a href="#" class="logo"><i class='bx  bxs-basket'></i> Fruits & Veggies</a>
+        <!--Menu Icon -->
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!--Nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#customers">Customers</a></li>
+        </ul>
+        <!-- Profile -->
+<div class="profile" id="profileDropdown">
+    <img src="images/profile.png" alt="Profile Picture">
+    <div class="profile-info">
+        <span>Queen Mohlala</span>
+        <i class='bx bx-caret-down' id="dropdownArrow"></i>
+    </div>
+    
+    <!-- Dropdown Menu -->
+    <div class="dropdown-menu" id="dropdownMenu">
+        <div class="dropdown-header">
+            <div class="user-info">
+                <img src="images/profile.png" alt="Profile Picture">
+                <div>
+                    <h4>Queen Mohlala</h4>
+                    <p>qmohlala10@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dropdown-divider"></div>
+        
+        <a href="#" class="dropdown-item">
+            <i class='bx bx-user'></i>
+            <span>My Profile</span>
+        </a>
+        
+        <a href="#" class="dropdown-item">
+            <i class='bx bx-shopping-bag'></i>
+            <span>My Orders</span>
+            <span class="badge">3</span>
+        </a>
+        
+        <a href="#" class="dropdown-item">
+            <i class='bx bx-heart'></i>
+            <span>Wishlist</span>
+            <span class="badge">5</span>
+        </a>
+        
+        <a href="#" class="dropdown-item">
+            <i class='bx bx-bell'></i>
+            <span>Notifications</span>
+            <span class="badge">2</span>
+        </a>
+        
+        <div class="dropdown-divider"></div>
+        
+        <a href="#" class="dropdown-item">
+            <i class='bx bx-cog'></i>
+            <span>Settings</span>
+        </a>
+        
+        <a href="#" class="dropdown-item">
+            <i class='bx bx-help-circle'></i>
+            <span>Help & Support</span>
+        </a>
+        
+        <div class="dropdown-divider"></div>
+        
+        <a href="#" class="dropdown-item logout">
+            <i class='bx bx-log-out'></i>
+            <span>Logout</span>
+        </a>
+    </div>
+</div>
+    </header>
+    <!-- Home Section -->
+     <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+        <!-- slide 1-->
+        <div class="swiper-slide container">
+            <div class="home-text">
+                <span> We are Fruits & Vegies</span>
+                <h1>Choose Fruits & Vegies <br>
+                    the best healthy <br> 
+                    chicken salad</h1>
+                <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+            <img src="images/img2.png" alt=" ">
+
+        </div>
+        <!--slide 2-->
+        <div class="swiper-slide container">
+            <div class="home-text">
+                <span> We are Fruits & Vegies</span>
+                <h1>Choose Fruits & Vegies <br> the best healthy <br> chicken salad</h1>
+                <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+            <img src="images/img1.png" alt=" ">
+        </div>
+        <!--slide 3-->
+        <div class="swiper-slide container">
+            <div class="home-text">
+                <span> We are Fruits & Vegies</span>
+                <h1>Choose Fruits & Vegies <br> the best healthy <br> chicken salad</h1>
+                <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+            </div>
+            <img src="images/img2.png" alt=" ">
+        </div>
+      </div>
+      <div class="custom-next"><img src="images/right-arrow.png" alt="Next"></div>
+      <div class="custom-prev"><img src="images/left-arrow (2).png" alt="Prev"></div>
+     </section>
+     <!-- Categories-->
+      <section class="categories" id="categories">
+    <div class="heading">
+        <h1>Browse Our Hottest <br><span>Categories</span></h1>
+        <a href="#" class="btn">See All<i class='bx bx-right-arrow-alt' ></i></a>
+    
+    </div>
+    <!--Container content-->
+    <div class="categories-container">
+
+    <!--Box 1 - Fruits-->
+    <a href="fruits.html" class="box box1">
+        <img src="images/plate-full-of-fruits-klf.png" alt="">
+        <h2>Fruits</h2>
+        <span>10 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+    </a>
+
+    <!--Box 2 - Vegetables-->
+    <a href="vegetables.html" class="box box2">
+        <img src="images/veg1.png" alt="">
+        <h2>Vegetables</h2>
+        <span>12 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+    </a>
+
+    <!--Box 3 - Drinks-->
+    <a href="drinks.html" class="box box3">
+        <img src="images/drink1.png" alt="">
+        <h2>Drinks</h2>
+        <span>9 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+    </a>
+
+    <!--Box 4 - Fresh Nuts-->
+    <a href="nuts.html" class="box box4">
+        <img src="images/nuts1.png" alt="">
+        <h2>Fresh Nuts</h2>
+        <span>8 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+    </a>
+
+    <!--Box 5 - Spices-->
+    <a href="spices.html" class="box box5">
+        <img src="images/spice1.png" alt="">
+        <h2>Spices</h2>
+        <span>11 Items</span>
+        <i class='bx bx-right-arrow-alt'></i>
+    </a>
+
+</div>
+
+</section>
+<!-- Products -->
+ <section class="products" id="products">
+    <div class="heading">
+        <h1>Our Popular <br><span>Products</span></h1>
+        <a href="#" class="btn">Shop Now<i class='bx bx-right-arrow-alt' ></i></a>
+    
+    </div>
+    <!-- Container content-->
+    <div class="products-container">
+        <!-- Box 1-->
+        <div class="box">
+            <img src="images/peachfruits.png" alt="">
+            <span>Fresh Items</span>
+            <h2>Peaches</h2>
+            <h3 class="price">R29.99 <span>/kg<span></h3>
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-heart' ></i>
+            <span class="discount">-25%</span>
+        </div>
+        <!-- Box 2-->
+        <div class="box">
+            <img src="images/avocados.png" alt="">
+            <span>Fresh Items</span>
+            <h2>Avocados</h2>
+            <h3 class="price">R39.99 <span>/kg<span></h3>
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-heart' ></i>
+            <span class="discount">-25%</span>
+        </div>
+        <!-- Box 3-->
+        <div class="box">
+            <img src="images/strawberries.png" alt="">
+            <span>Fresh Items</span>
+            <h2>Strawberries</h2>
+            <h3 class="price">R49.99 <span>/kg<span></h3>
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-heart' ></i>
+            <span class="discount">-25%</span>
+        </div>
+        <!-- Box 4-->
+        <div class="box">
+            <img src="images/tomatoes.png" alt="">
+            <span>Fresh Items</span>
+            <h2>Fresh tomatoes</h2>
+            <h3 class="price">R59.99 <span>/kg<span></h3>
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-heart' ></i>
+            <span class="discount">-25%</span>
+        </div>
+        <!-- Box 5-->
+        <div class="box">
+            <img src="images/orange.png" alt="">
+            <span>Fresh Items</span>
+            <h2>Oranges</h2>
+            <h3 class="price">R39.99 <span>/kg<span></h3>
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-heart' ></i>
+            <span class="discount">-25%</span>
+        </div>
+        <!-- Box 6-->
+        <div class="box">
+            <img src="images/potatoes.png"  alt="">
+            <span>Fresh Items</span>
+            <h2>Potatoes</h2>
+            <h3 class="price">R69.99 <span>/kg<span></h3>
+            <i class='bx bx-cart-alt' ></i>
+            <i class='bx bx-heart' ></i>
+            <span class="discount">-25%</span>
+        </div> 
+    </div>
+ </section>
+ <!--About -->
+ <section class="about" id="about">
+    <img src ="images/mixed-fruits.png" alt="">
+    <div class="about-text">
+        <span>About Us</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="#" class="btn">Learn More<i class='bx bx-right-arrow-alt' ></i></a>
+    </div>
+</section>
+<!-- Customers -->
+<section class="customers" id="customers">
+    <h2>Why Customers Love Us?</h2>
+
+    <div class="customers-container">
+
+        <!-- Reviewer 1 -->
+        <div class="box">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="review-profile">
+                <img src="images/reviewer1.jpg" alt="">
+                <div class="review-profile-text">
+                    <h3>Sarah Johnson</h3>
+                    <span>Food Blogger</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviewer 2 -->
+        <div class="box">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="review-profile">
+                <img src="images/reviewer2.jpg" alt="">
+                <div class="review-profile-text">
+                    <h3>Sarah Johnson</h3>
+                    <span>Food Blogger</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviewer 3 -->
+        <div class="box">
+            <i class='bx bxs-quote-alt-left'></i>
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="review-profile">
+                <img src="images/reviewer3.jpg" alt="">
+                <div class="review-profile-text">
+                    <h3>Sarah Johnson</h3>
+                    <span>Food Blogger</span>
+                </div>
+            </div>
+        </div>
+</section>
+<!--Footer-->
+<section class="footer" id="footer">
+    <div class="footer-box">
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>Fruits & Veggies</a>
+        <p>Mamelodi, Malaka Street, 5th <br>Floor, Pretoria 0122</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+    <div class="footer-box">
+        <h2>Useful Links</h2>
+        <a href="#">Payment & Tax</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">My Blogs</a>
+        <a href="#">Return Policy</a>
+    </div>
+    <div class="footer-box">
+        <h2>Newsletter</h2>
+        <p>Get 10% Discount with <br>Email Newsletter</p>
+        <form action="">
+            <i class='bx bxs-envelope'></i>
+            <input type="email" name="" id="" placeholder="Enter Your Email">
+            <i class='bx bx-arrow-back bx-rotate-180'></i>
+        </form>
+
+        
+    </div>
+</section>
+<!--CopyRight-->
+<div class="copyright">
+    <p>Copyright © 2025 Fruits & Veggies. All rights reserved.</p>
+</div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Link to JS  -->
+      <script src="main.js"></script>
+</body>
+</html>
